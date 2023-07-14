@@ -278,7 +278,8 @@ body{
 }
 .logo{
     height: -4px;
-    width: 13%;
+    width: 23%;
+    border-radius: 54px;
 }
 .cart{
     height: -4px;
@@ -1269,7 +1270,7 @@ footer .copyright{
     }
    .targetimg{
         height: 395px;
-        width: 241px;
+        width: 341px;
    }
    .section-p1{
     padding: 20px;
@@ -1281,8 +1282,10 @@ footer .copyright{
      width: 153px;
      margin: 0 0 5px 0;
    }
-   #product1 .pro {
-       width: 141%;
+   .product-under{
+    align-items: center;
+       width: 81%;
+       height: 75px;
     }
     #banner {
         height: 40vh;
@@ -1456,4 +1459,15 @@ footer .copyright{
 }
 #contact-logo{
     width: 23%;
+}
+#sproductfoot{
+    margin-left: -85px;
+    margin-right: -104px;
+   margin-bottom: -59px;
+
+}
+.newssproduct{
+    margin-left: -85px;
+    margin-right: -104px;
+   /* margin-bottom: -59px; */
 }

@@ -7,6 +7,7 @@
     text-decoration: none;
     font-family: "Titillium Web", sans-serif;
     list-style-type: none;
+    /* background-color: rgb(238, 217, 221); */
 }
 
 html {
@@ -1056,5 +1057,29 @@ footer .footer-second {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    .product-under {
+        width: 80%;
+        height: 80%;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+        border: 4px solid rgb(175, 34, 86);
+        background-color: pink;
+    }
+    .product{
+        margin-left: 93px;
+        margin-top: 12px;
+        margin-bottom: -63px;
+    }
+    .price{
+        margin-left: 23px;
+        margin-top: 12px;
+     
+    }
+    .main-section {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
     }
 }
